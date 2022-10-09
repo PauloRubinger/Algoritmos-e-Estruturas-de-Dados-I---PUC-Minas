@@ -5,10 +5,10 @@
 
 int main(){
 
-    char caracter;
-    printf("Digite um caracter qualquer: \n");
-    scanf(" %c",&caracter);
+    char caractere;
+    printf("Digite um caractere qualquer: \n");
+    scanf(" %c",&caractere);
 
-    printf("%d",caracter);
+    printf("%d",caractere);
     return 0;
 }
