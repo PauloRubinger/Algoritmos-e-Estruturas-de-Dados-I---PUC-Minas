@@ -29,7 +29,7 @@ void excGenerator(int n){
 int main(){
 
     int n;
-    printf("Enter the value of lines: \n");
+    printf("Enter the number of lines: \n");
     scanf("%d", &n);
 
     excGenerator(n);
