@@ -10,7 +10,7 @@ typedef struct {
     int idade;
     char endereco[150];
 
-}cadastro;
+}Cadastro;
 
 int main(){
 
