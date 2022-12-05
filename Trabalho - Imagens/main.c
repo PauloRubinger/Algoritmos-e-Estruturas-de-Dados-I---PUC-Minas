@@ -48,7 +48,7 @@ void leAlturaLarguraMaxColor(char *file, int *largura, int *altura, int *maxColo
 	fgets(linha, 100, arq);	// Lê a segunda linha do arquivo de imagem
 	printf("%s", linha); 	// Imprime a segunda linha do arquivo de imagem (apenas para verificação)
 
-	// As próximas linhas após as duas primeira mostram a largura, altura e tonalidade máxima da imagem
+	// As próximas linhas após as duas primeiras mostram a largura, altura e tonalidade máxima da imagem
 	fscanf(arq, "%d", largura);	// Lê a largura da imagem
 	fscanf(arq, "%d", altura);	// Lê a altura da imagem
 	fscanf(arq, "%d", maxColor); // Lê a tonalidade máxima
