@@ -56,7 +56,7 @@ void leAlturaLarguraMaxColor(char *file, int *largura, int *altura, int *maxColo
 	fclose(arq);	// Fecha o arquivo
 }
 
-// Função para ler os dados do arquivo de imagem
+// Função para ler a matriz que representa a imagem
 void leMatriz(char *file, int altura, int largura, int **img) {
 	
 	FILE *arq;
