@@ -262,7 +262,7 @@ void liberarMatriz(int n, int m, int **v) {
 	}
 
 	for (int i = 0; i < m; i++)
-		free(v[i]);	// Libera todas as linhas da matriz
+		free(v[i]);	// Libera todas as colunas da matriz
 
 	free(v);	// Libera a matriz
 }
